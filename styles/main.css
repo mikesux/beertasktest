@@ -127,6 +127,23 @@ a, a:hover, a:focus {
   background-color: #9e9e9e;
 }
 
+/* Background */
+
+.full {
+    background: url('https://mi2013.files.wordpress.com/2013/01/year-of-beer-021.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: .1;
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
 /* Comments */
 
 .well.well-sm.cmt {
